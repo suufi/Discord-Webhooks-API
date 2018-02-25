@@ -1,0 +1,31 @@
+{
+  "name": "discord-webhooks-api",
+  "version": "1.0.0",
+  "description": "A Discord webhook API using Express.js",
+  "main": "API.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suufi/Discord-Webhooks-API.git"
+  },
+  "keywords": [
+    "discord",
+    "webhooks",
+    "express",
+    "roblox"
+  ],
+  "author": "suufi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suufi/Discord-Webhooks-API/issues"
+  },
+  "homepage": "https://github.com/suufi/Discord-Webhooks-API#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
