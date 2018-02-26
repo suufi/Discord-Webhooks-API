@@ -1,19 +1,19 @@
 local WebhookModule = {}
 
-local HTTPService = game:GetService('HttpService');
-local API_URL = "apiURL + port";
+local HTTPService = game:GetService('HttpService')
+local API_URL = "apiURL + port"
 
 function WebhookModule:Send( Content )
-	Content = HTTPService:JSONEncode( Content );	
+	Content = HTTPService:JSONEncode( Content )	
 	
 	local Post = pcall(function()
-		HTTPService:PostAsync(API_URL .. '/discord/webhook', Content);
+		HTTPService:PostAsync(API_URL .. '/discord/webhook', Content)
 	end)
 		
 	if Post then
-		return "✅ Webhook has posted successfully";
+		return "✅ Webhook has posted successfully"
 	else
-		return ("❌ Webhook has failed to post " .. Content);
+		return ("❌ Webhook has failed to post " .. Content)
 	end
 end
 
