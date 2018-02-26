@@ -6,7 +6,7 @@
 * Process Manager such as [Nodemon](https://nodemon.io/) or [PM2](http://pm2.keymetrics.io/)
 
 ## How To Install & Run
-1. Clone this repository by running in your Terminal: `$ git clone git@github.com:suufi/Discord-Webhooks-API.git`
+1. Clone this repository by running in your Terminal: `$ git clone https://github.com/suufi/Discord-Webhooks-API`
 2. Run `$ npm install` in your Terminal to install dependencies
 3. Go to the API.js file and make any necessary changes including setting a default webhook URL
 4. Run `$ node API.js` to make sure there are no errors.
